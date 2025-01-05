@@ -1,0 +1,54 @@
+/* Định dạng chung cho toàn bộ trang */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Tiêu đề */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Định dạng cho dữ liệu cảm biến */
+.sensor-data {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sensor-data p {
+  margin: 10px 0;
+}
+
+/* Định dạng cho các nút điều khiển */
+.controls {
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #3e8e41;
+}
+
+.button.off {
+  background-color: #f44336;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32 Web Server</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <h1>ESP32 Web Server</h1>
+    <div class="sensor-data">
+        <h2>Sensor Data</h2>
+        <p>Nhiệt độ: <span id="temperature">--</span> °C</p>
+        <p>Độ ẩm: <span id="humidity">--</span> %</p>
+        <p>Cường độ ánh sáng: <span id="light">--</span></p>
+        <p>Độ ẩm đất: <span id="moisture">--</span></p>
+    </div>
+
+    <div class="controls">
+        <h2>Controls</h2>
+        <button id="led-button" class="button">LED: OFF</button>
+        <button id="pump-button" class="button">Pump: OFF</button>
+    </div>
+</body>
+</html>
